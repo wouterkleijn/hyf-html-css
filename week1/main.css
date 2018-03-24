@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    font-family: Raleway;
+}
+.header {
+     margin: 0 auto;
+     width: 500px; 
+     height: 120px;
+     text-align: center;
+     vertical-align: middle;
+     line-height: 120px;
+}
+
+.menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+li.menu_list {
+   display: inline;
+   display: inline-block; 
+   padding: 2px;  
+}
+li.menu_list2 {
+    padding: 2px; 
+    padding-left:1em;
+ }
+
+ /* the code below styles the links used in the menu (the header and buttons up top) */
+
+a.buttonstyle:link, a.buttonstyle:visited {
+    color: black; 
+    background-color: none; 
+    text-decoration: none;
+    padding: 14px 10px;
+}
+
+a.buttonstyle:hover {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 14px 10px;
+}
+
+a.buttonstyle:active {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 14px 25px;
+}
+/* still working on aligning the text and graphic vertically centered on the page */
+.about {
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    height: 100vh;
+}
+
+#pictureme  {
+    border-radius: 50%;
+    width: 280px;
+}
+
+.scrollimage {
+    opacity: 0.3;
+    width: 80px;
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.resume_maincontainer {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    height: 100%;
+    padding-top: 120px;
+}
+.title_work {
+    font-weight: 500;
+    color: darkred;
+    display: inline-block;
+    padding: 12px;
+}
+
+.descriptionjob {
+    font-size: 0.9em;
+    text-align: left;
+}
+
+#picturewouter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.learning_container {
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    height: 100vh;
+    padding-top: 120px;
+}
+
+#learninggif {
+    display: block;
+    padding-top: 20px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.resources_container {
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    height: 100vh;
+    padding-top: 120px;
+}
+.leftcenteredlist {
+    text-align: left;
+    padding:10px;
+    margin:0;
+    display: inline-block;
+}
+/* the code below styles the links as used by the regular text (not the header and buttons up top) */
+
+a.regularlink:link, a.regularlink:visited {
+    color: navy; 
+    background-color: none; 
+    text-decoration: none;
+}
+
+a.regularlink:hover {
+    color: black; 
+    background-color: none; 
+    text-decoration: none;
+}
+
+a.regularlink:active {
+    color: black; 
+    background-color: none; 
+    text-decoration: none;
+}
+
+#codinggif {
+    display: block;
+    padding-top: 20px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
