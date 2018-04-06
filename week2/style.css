@@ -72,6 +72,21 @@ h3{
         width: 50%;
         color: rgb(5, 5, 114);
     }
+
+    #grid-flex li {
+        width: calc(100%/3);
+        height: 600px;
+        font-size:1.6em;
+    }
+    
+    #grid-flex li:first-child {
+        width: 50%;
+        color: rgb(5, 5, 114);
+    }
+    #grid-flex li:nth-child(2) {
+        width: 50%;
+        color: rgb(5, 5, 114);
+    }
 }
 /* Phone Screen Size */
 
@@ -83,6 +98,16 @@ h3{
     }
 
     #grid-floats li:first-child {
+        width: 100%;
+    }
+
+    #grid-flex li {
+        width: 50%;
+        height: 800px;
+        font-size:1.2em;
+    }
+
+    #grid-flex li:first-child {
         width: 100%;
     }
 }
@@ -100,6 +125,25 @@ h3{
     flex-basis: calc(100% / 4);
     padding: 15px;
 }
-#grid-flex img {
+
+#grid-flex li {
+    float: left;
     width: 25%;
+    color: black;
+    list-style: none;
+    margin: auto;
+    margin-left: 0;
+    height: 730px;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size:1.8em;
+}
+
+#grid-flex li:first-child {
+    width: 50%;
+    color: rgb(5, 5, 114);
+}
+
+#grid-flex img {
+    width: 100%;
  }
