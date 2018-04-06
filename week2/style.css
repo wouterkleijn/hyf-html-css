@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@keyframes colortransition {
+    from {background-color: white}
+    to {background-color: black;}
+}
+body {
+    font-family: Raleway;
+    font-size: 12px;
+}
+
+/* Using Float */
+
+#grid-floats li {
+    float: left;
+    width: 25%;
+    color: black;
+    list-style: none;
+    margin: auto;
+    margin-left: 0;
+    height: 730px;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size:1.8em;
+}
+
+#grid-floats img {
+    width: 100%;
+}
+
+#grid-floats li:first-child {
+    width: 50%;
+    color: rgb(5, 5, 114);
+}
+
+#grid-flex {
+    clear: both;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    background-color: black;
+    color: white;
+    animation-name: colortransition;
+    animation-duration: 4s;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.2em;
+    clear: both;
+}
+
+h3{
+    text-align: center;
+}
+
+/* Using flexbox */
+
+#grid-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+}
+
+#grid-flex {
+    flex-basis: calc(100% / 4);
+    padding: 15px;
+}
+
+#grid-flex li {
+    float: left;
+    width: 25%;
+    color: black;
+    list-style: none;
+    margin: auto;
+    margin-left: 0;
+    height: 730px;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size:1.8em;
+}
+
+#grid-flex li:first-child {
+    width: 50%;
+    color: rgb(5, 5, 114);
+}
+
+#grid-flex img {
+    width: 100%;
+ }
+
+/* Tablet Screen Size */
+
+@media only screen and (max-width: 1024px) {
+    #grid-floats li {
+        width: calc(100%/3);
+        height: 600px;
+        font-size:1.6em;
+    }
+    
+    #grid-floats li:first-child {
+        width: 50%;
+        color: rgb(5, 5, 114);
+    }
+    #grid-floats li:nth-child(2) {
+        width: 50%;
+        color: rgb(5, 5, 114);
+    }
+
+    #grid-flex li {
+        width: calc(100%/3);
+        height: 600px;
+        font-size:1.6em;
+    }
+    
+    #grid-flex li:first-child {
+        width: 50%;
+        color: rgb(5, 5, 114);
+    }
+    #grid-flex li:nth-child(2) {
+        width: 50%;
+        color: rgb(5, 5, 114);
+    }
+}
+/* Phone Screen Size */
+
+@media only screen and (max-width: 800px) {
+    #grid-floats li {
+        width: 50%;
+        height: 600px;
+        font-size:1.2em;
+    }
+
+    #grid-floats li:first-child {
+        width: 100%;
+    }
+
+    #grid-flex li {
+        width: 50%;
+        height: 600px;
+        font-size:1.2em;
+    }
+
+    #grid-flex li:first-child {
+        width: 100%;
+    }
+}
