@@ -1,0 +1,126 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Roboto,sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6;
+    box-sizing: border-box;
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.menuitem {
+    color: #424242;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+#thinkwithImage {
+    width: 200px;
+    padding: 4px;
+}
+
+#navbarImage {
+    width: 30px;
+    margin-top: 4px;
+}
+
+form.example button {
+    padding: 5px;
+    background-color: transparent;
+    color: rgb(80, 79, 79);
+    font-size: 17px;
+    cursor: pointer;
+    border: transparent;
+}
+
+.containerHeader {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 210px;
+    line-height: 2.2em;
+    margin-right: 20px;
+
+
+}
+.containerHeaderLeft {
+    width: 70%;
+    text-align: left;
+}
+
+.containerHeaderRight {
+    width: 30%;
+    text-align: right;
+}
+
+.linebreak {
+    width: 100%;
+  }
+
+.headerText {
+    font-size: 1.9em;
+    font-weight: 100;
+    color: #3a3939;
+}
+
+.containerPhoto1 {
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) ), url("images/smilingman.jpg"); 
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 21.25rem;
+    background-size: cover;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-top: 25px;
+    box-shadow: 0 0.125rem 0.1875rem 0 rgba(0,0,0,.11);
+}
+
+.containerText {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: auto;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    font-size: 1.1em;
+    font-weight: 520;
+    width: 300px;
+}
+
+#smallContainerText {
+    font-size: 0.8em;
+    font-weight: 520; 
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 0 0.125rem 0.1875rem 0 rgba(0,0,0,.11);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.datadrivenCard {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(66, 65, 65);
+    margin-top: auto;
+    font-size: 1.1em;
+    font-weight: 520;
+    }
+
+    .containerPhoto2 {
+        background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) ), url("images/purplead.jpg"); 
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 21.25rem;
+        background-size: cover;
+        margin-right: 25px;
+        margin-top: 25px;
+        margin-top: 25px;
+        box-shadow: 0 0.125rem 0.1875rem 0 rgba(0,0,0,.11);
+    }
