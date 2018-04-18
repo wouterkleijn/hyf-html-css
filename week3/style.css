@@ -5,19 +5,17 @@ body {
     -webkit-font-smoothing: antialiased;
     line-height: 1.6;
     box-sizing: border-box;
-    margin: 0;
-    margin-left: 30px;
     margin-top: 30px;
+    color: #424242;
 }
 .menuitem {
-    color: #424242;
     display: inline-flex;
     flex-wrap: wrap;
 }
 
 #thinkwithImage {
     width: 200px;
-    padding: 4px;
+    margin-left: 10px;
 }
 
 #navbarImage {
@@ -25,43 +23,46 @@ body {
     margin-top: 4px;
 }
 
-form.example button {
-    padding: 5px;
-    background-color: transparent;
-    color: rgb(80, 79, 79);
-    font-size: 17px;
-    cursor: pointer;
-    border: transparent;
+#searchButtonSize {
+    font-size: 1.8em;
+    color: rgb(107, 107, 107)
 }
 
 .containerHeader {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    height: 210px;
+    height: auto;
     line-height: 2.2em;
     margin-right: 20px;
-
-
+    margin-left: 25px;
 }
 .containerHeaderLeft {
-    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90%;
     text-align: left;
 }
 
 .containerHeaderRight {
-    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 10%;
     text-align: right;
 }
 
-.linebreak {
-    width: 100%;
-  }
-
 .headerText {
-    font-size: 1.9em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
     font-weight: 100;
     color: #3a3939;
+    height: 6em;
+    margin-left: 25px;
 }
 
 .containerPhoto1 {
@@ -70,8 +71,8 @@ form.example button {
     flex-wrap: wrap;
     min-height: 21.25rem;
     background-size: cover;
+    margin-left: 25px;
     margin-right: 25px;
-    margin-top: 25px;
     margin-top: 25px;
     box-shadow: 0 0.125rem 0.1875rem 0 rgba(0,0,0,.11);
 }
@@ -82,7 +83,7 @@ form.example button {
     color: white;
     margin-top: auto;
     margin-bottom: 30px;
-    margin-left: 40px;
+    margin-left: 25px;
     font-size: 1.1em;
     font-weight: 520;
     width: 300px;
@@ -99,6 +100,7 @@ form.example button {
     background-color: white;
     box-shadow: 0 0.125rem 0.1875rem 0 rgba(0,0,0,.11);
     margin-top: 25px;
+    margin-left: 25px;
     margin-bottom: 25px;
     margin-right: 25px;
 }
@@ -109,18 +111,72 @@ form.example button {
     flex-wrap: wrap;
     color: rgb(66, 65, 65);
     margin-top: auto;
+    margin-left: 25px;
     font-size: 1.1em;
     font-weight: 520;
     }
 
-    .containerPhoto2 {
-        background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) ), url("images/purplead.jpg"); 
-        display: flex;
-        flex-wrap: wrap;
-        min-height: 21.25rem;
-        background-size: cover;
-        margin-right: 25px;
-        margin-top: 25px;
-        margin-top: 25px;
-        box-shadow: 0 0.125rem 0.1875rem 0 rgba(0,0,0,.11);
-    }
+.containerPhoto2 {
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) ), url("images/purplead.jpg"); 
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 21.25rem;
+    background-size: cover;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-top: 25px;
+    box-shadow: 0 0.125rem 0.1875rem 0 rgba(0,0,0,.11);
+}
+
+.card {
+    flex: 33.33333%;
+    margin: .625rem;
+    max-height: 6.6875rem;
+    max-width: 8.125rem;
+    min-height: 5.3125rem;
+    min-width: 5.3125rem;
+    padding: 0;
+    margin-left: 25px;
+}
+.footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3367d6;
+    color: white;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0;
+    padding: 1em;
+}
+.footerTitle {
+    font-size: 1.5em;
+    font-weight: 100;
+    width: 70%;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: none;
+    width: 100%;
+}
+#smallSignUpText {
+    font-size: 0.8em;
+}
+.form {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.subscribeButton {
+    background-color: white;
+    color: #3367d6;
+    border: none;
+    padding: 15px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
